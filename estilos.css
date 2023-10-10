@@ -1,0 +1,279 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(47, 48, 56);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header { /* cabeçalho  */
+    background-color: rgb(47, 48, 56);
+    border-bottom: 1.3rem solid rgb(58, 60, 71);
+    width: 100%;
+    padding: 0.01%;
+    box-shadow: rgb(0, 0, 0) 2px 2px 5px;
+}
+
+h1 {
+    margin-left: 1rem;
+    color: blueviolet;
+    text-shadow: rgba(43, 17, 53, 0.452) 2px 2px 3px;
+}
+
+.start {
+    color: rgb(255, 255, 255);
+    margin-right: 4rem;
+    float: left;
+}
+
+
+#start-cor:hover{
+    border: 1px solid rgb(235, 235, 235);
+    border-radius: 4px;
+}
+
+.img_eu{
+    border-radius: 50%;
+    width: 100px;
+    margin: 2vh 3vh;
+    float: right;
+}
+
+.nome{
+    text-align: center;
+    margin: 10vh 50vh;
+    border: solid 3px white;
+    border-radius: 2.8vh;
+}
+
+.ola{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 1px;
+    text-shadow: rgb(0, 0, 0) 2px 2px 3px;
+}
+
+h2{
+    color: blueviolet;
+    font-size: 43px;
+    margin: 0;
+    padding: 0;
+    text-shadow: rgba(0, 0, 0, 0.397) 2px 2px 3px;
+}
+
+.adeus{
+    color: white;
+    font-size: 25px;
+    margin-top: 1px;
+    text-shadow: rgba(0, 0, 0, 0.445) 2px 2px 3px;
+}
+
+.botao{
+    text-align: center;
+}
+
+#botao-id{
+    color: rgb(255, 255, 255);
+    background-color: rgb(18, 190, 84);
+    padding: 1vh;
+    border: 1px solid rgb(14, 116, 27);
+    border-radius: 5.5px;
+    text-shadow: 2px 2px 5px rgb(51, 187, 39);
+}
+
+#botao-id:hover{
+    color: rgb(187, 195, 202);
+}
+
+.apresentacao{
+    background-color: rgba(56, 57, 65, 0.322);
+    color: aliceblue;
+    border-radius: 8px;
+    text-align: left;
+    margin: 8vh 23vh;
+    padding: 2px 5px;
+}
+
+.objetivo{
+    background-color: rgba(56, 57, 65, 0.322);
+    color: aliceblue;
+    border-radius: 8px;
+    text-align: left;
+    margin: 8vh 23vh;
+    padding: 2px 5px;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.proposito{
+    background-color: rgba(56, 57, 65, 0.322);
+    color: aliceblue;
+    border-radius: 8px;
+    text-align: left;
+    margin: 8vh 23vh;
+    padding: 2px 5px;
+}
+
+.sites{
+    margin: 5vh 50vh;
+    background-color: rgba(56, 57, 65, 0.322);
+}
+
+.p_site{
+    color: blueviolet;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 33px;
+    text-shadow: rgb(0, 0, 0) 2px 2px 5px;
+}
+
+#a_site{
+    color: rgb(255, 255, 255);
+    font-family: cursive;
+    text-shadow: rgb(0, 0, 0) 2px 2px 5px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+   
+}
+
+#a_site:hover{
+    color: rgb(174, 185, 192);
+}
+
+.habilidades{ /* SKILLS */
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: rgba(56, 57, 65, 0.322);
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+
+.h_Skill{
+    margin-top: 3vh;
+}
+
+.p_Skill{
+    color: aliceblue;
+    text-align: left;
+    margin: 6vh 10vh;
+    padding: 2vh;
+}
+
+.projeto_no_texto{
+    color: rgb(72, 162, 223);
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+
+.projeto_no_texto:hover{
+    color: rgb(146, 151, 165);
+}
+
+.p_HTML{
+    text-align: center;
+    font-size: 33px;
+    color: rgb(220, 217, 236);
+    text-shadow: 2px 2px 5px rgb(216, 207, 207);
+}
+
+.P_CSS{
+    text-align: center;
+    font-size: 33px;
+    color: rgb(220, 217, 236);
+    text-shadow: 2px 2px 5px rgb(216, 207, 207);
+}
+
+.p_Js{
+    text-align: center;
+    font-size: 33px;
+    color: rgb(220, 217, 236);
+    text-shadow: 2px 2px 5px rgb(216, 207, 207);
+}
+
+.H_contato{ /* H2-contato */
+    text-align: center;
+    margin-top: 3vh;
+}
+.img_git{ /* imagem gitHub */
+    margin-top: 5vh;
+    border-radius: 50%;
+    width: 100px;
+}
+
+.div_git_img{
+    text-align: center;
+}
+
+.img_inst{ /* imagem instagram */
+    margin-top: 5vh;
+    border-radius: 50%;
+    width: 100px;
+}
+
+.div_inst_img{ 
+    text-align: center;
+    margin-top: 3vh;
+}
+
+.img_What{ /* imagem WhatsApp */
+    margin-top: 5vh;
+    border-radius: 50%;
+    width: 100px;
+}
+
+.div_what_img{
+    text-align: center;
+    margin-top: 3vh;
+}
+
+.img_curriculo{
+    margin-top: 5vh;
+    text-align: center;
+}
+
+.curriculo_eu{
+    width: 100px;
+    border-radius: 55%;
+}
+
+.nome_curriculo{
+    margin-top: 1vh;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+
+.curriculo_1{
+    text-align: center;
+    color: aliceblue;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+
+.Experiencia_curriculo{
+ text-align: center;
+}
+
+.P_pai{
+    font-size: 22px;
+    color: blueviolet;
+    text-shadow: rgb(0, 0, 0) 2px 2px 5px;
+}
+
+.P_filho{
+    color: aliceblue;
+    text-shadow: rgb(0, 0, 0) 2px 2px 5px;
+}
+
+.Habilidades_curriculo{
+    text-align: center;
+}
+
+.all_background{
+    background-color: rgba(56, 57, 65, 0.322);
+    margin: 2vh 50vh;
+    padding: 1vh;
+}
